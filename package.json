@@ -1,0 +1,12 @@
+{
+  "name": "play-with-hugo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "hugo": "cross-env-shell docker run --rm -v $INIT_CWD:/src klakegg/hugo:0.107.0-ext-alpine"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
